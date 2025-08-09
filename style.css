@@ -1,0 +1,60 @@
+/* .cart-button{
+    background-color: pink;
+    border: 0.8px solid hotpink;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    transition: color 0.5s ease;
+}
+
+.cart-button:hover{
+    background-color: hotpink;
+    color: lightpink;
+
+} */
+
+p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+button{
+    background-color: plum;
+    color: black;
+    border: 0.8px solid purple;
+    transition: background-color 0.3s ease;
+    transition: color 0.5s ease;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: purple;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightyellow;
+    gap: 5vw;
+    margin-top: -7vw;
+}
+
+@media screen and (max-width: 350px) {
+    button{
+        width: 220px;
+    }
+    
+}
